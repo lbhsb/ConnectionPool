@@ -139,6 +139,9 @@
     <ClCompile Include="..\..\..\ConnectPool1\Connection.cpp" />
     <ClCompile Include="..\..\..\ConnectPool1\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="server.ini" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
